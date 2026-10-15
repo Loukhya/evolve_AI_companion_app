@@ -1,0 +1,29 @@
+# ==============================================================================
+# Evolve - Personal Growth Companion
+# Dependency Reference & Environment Specifications
+# ==============================================================================
+# PRIMARY RUNTIME & BUILD SYSTEM:
+# Evolve is a modern client-side Single Page Application (SPA) built with 
+# Node.js, React 19, TypeScript, and Vite.
+#
+# Primary dependency management is handled via npm and package.json:
+#   npm install
+#   npm run dev
+#
+# Node.js Version: >= 18.0.0 (Node 20+ LTS recommended)
+# npm Version: >= 9.0.0
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# OPTIONAL PYTHON UTILITIES & DATA TOOLS
+# ------------------------------------------------------------------------------
+# If you develop custom offline ML scripts, data analysis pipelines, or 
+# administrative database scripts with Python against Supabase, the following
+# packages are recommended:
+
+supabase>=2.3.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+pydantic>=2.0.0
